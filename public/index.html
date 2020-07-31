@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Marta Gilabert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./img/main-logo.png">
+</head>
+
+<body>
+    <div class="container">
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-1">
+        <a class="navbar-brand" href="#home"><img src="./img/main-logo.png" alt="logo" width="30px"></a>
+        <!--drop down when small-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--end of drop down menu-->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#intro">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link text-white" href="https://www.notion.so/martagigu/Blog-df8a87d7c9a04049b2b63ec264cd6e44">Blog</a> -->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<!-- HERO -->
+<!-- <div class="container m-auto" id="home">
+  <div class="row">
+    <div class="col-12 col-md-12"><img src="hero.png"  class="img-fluid p-0 border-0 rounded mt-3 mb-3" alt="Hello, I am Marta" style="width: 100%">
+    </div>
+  </div>
+</div> -->
+<div class="container mt-5 mb-4 p-3" id="home">
+<div id="intro" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="2000">
+      <img src="./img/index/carrousel 1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="./img/index/carrousel 2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="./img/index/carrousel 3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="./img/index/carrousel 4.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> -->
+</div>
+</div>
+
+
+<!-- INTRO -->
+<div class="container m-auto" id="intro">
+  <div class="card mb-3 border-0" style="width: 100%;">
+    <div class="row no-gutters">
+      <div class="col-lg-4 col-md-2">
+        <img src="./img/index/yo.jpg" class="card-img d-none d-lg-block" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="mytitle card-title">Intro</h2>
+          <p class="card-text text-justify align-middle">As you know, my name is Marta. I was born in Mataró, Barcelona, in 1989.<br><br> Did my studies in UAB about labour relations. Started to work in HR in 2014, so six years ago. After being in quarantine at home I decided to undertake a new project, I wanted to teach myself some web development.<br><br>
+
+            I started with some Free Code Camp exercises, and this website is my way to put what I've learned in practice. I am far from considering myself a frontend developer, but I am enjoying this learning journey.
+            
+            My intention here is just to practice, learn and above everything else, have fun.<br><br> So, welcome to my playground.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- making col instad of cards -->
+<!-- <div class="row">
+  <div class="col-12 col-md-4">
+    <img src="yo.jpg"  class="img-fluid border-0 rounded-left" alt="Marta's picture">
+  </div>
+  <div class="col-12 col-md-8 bg-white p-5 d-flex-align-items-center border-0 rounded-right">
+  <section>
+    <h2 class="mt-3">Intro</h2>
+    <p class="mb-3">Born in Mataró and raised between Mataró and Argentona (Barcelona).
+    
+    In 2014 I joined Randstand and started my journey working as Recruiter, at the beginning with generic profiles, untill in 2017 I started to focus on Tech Recruitment. At that moment is when my curiosity for programming started.
+    
+    At the end of 2018 I got the chance to move to Hamburg, Germany. Packed all my stuff and moved there together with my partner and our two cats. Currently we are about to move to Munich, as we got a good opportunity there.
+    
+    During the quarantine I decided to do something productive and started studying HTML, CSS and Javascript in Free Code Camp, also took some courses in Udacity. And basically, this is how this project started.<br><br>
+    
+    Welcome to my little playground, hope you like it!</p>
+    </div>
+  </section>
+</div>
+</div> -->
+
+<!-- Experience -->
+
+<!-- <div class="container">
+  <h2 class="text-white">Experience</h2>
+  <div class="row">
+    <div class="col text-white"> Experience 1</div>
+    <div class="col text-white"> Experience 2</div>
+  </div>
+</div> -->
+
+<div class="container mt-5" id="experience">
+  <h1 class="text-white p-5 text-center">Experience</h1>
+<div class="row">
+  <div class="col-sm-6 p-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="color: #cd6766;"><strong>Sr Tech Recruiter</strong></h4>
+        <h5 class="card-title">Arculus, Munich</h5>
+        <h6 class="card-title">Aug 2020 - Currently</h6>
+        <p class="card-text">Start-up specialized in Modular Production. Specialized in technical profiles.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 p-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="color: #cd6766;"><strong>Sr Tech Recruiter</strong></h4>
+        <h5 class="card-title">Free Now, Hamburg</h5>
+        <h6 class="card-title">Jan 2019 - July 2020</h6>
+        <p class="card-text">Mobility start-up. Focusing on technical profiles and middle management.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 p-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="color: #cd6766;"><strong>Lead Tech Recruiter</strong></h4>
+        <h5 class="card-title">Webhelp, Barcelona</h5>
+        <h6 class="card-title">June 2017 - Dec 2018</h6>
+        <p class="card-text">Outsourcing company, working 90% for the Google Cloud platform support.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 p-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="color: #cd6766;"><strong>International Recruiter</strong></h4>
+        <h5 class="card-title">Alphanumerics, Barcelona</h5>
+        <h6 class="card-title">Oct 2016 - May 2017</h6>
+        <p class="card-text">Outsourcing company working for GSK as only client. Hiring internationally.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 p-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="color: #cd6766;"><strong>Marketing Recruiter</strong></h4>
+        <h5 class="card-title">Hays, Barcelona</h5>
+        <h6 class="card-title">Oct 2015 - Oct 2016</h6>
+        <p class="card-text">Specialized in Marketing and Sales profiles, specially junior to mid level.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 p-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title" style="color: #cd6766;"><strong>International Recruiter</strong></h4>
+        <h5 class="card-title">Randstad, Barcelona</h5>
+        <h6 class="card-title">Oct 2014 - Oct 2015</h6>
+        <p class="card-text">Specialized in International contact center profiles for Barcelona.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Projects -->
+
+<div class="container mt-5" id="projects">
+  <h1 class="text-white text-center p-5">Projects</h1>
+  <div class="row">
+    <div class="col-sm-4 p-4">
+      <div class="mycard card">
+        <img src="./img/index/captura-tribute.png" class="card-img-top d-none d-md-block" alt="...">
+        <div class="card-body">
+      <h5 class="mytitle card-title">Tribute Page</h5>
+      <p class="card-text">Basic Tribute Site to the famous Mexican painter Frida Khalo.</p>
+      <a href="./tribute.html" class="btn btn-primary">Check it out</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-4 p-4">
+      <div class="card">
+        <img src="./img/index/captura-form2.png" class="card-img-top d-none d-md-block" alt="...">
+        <div class="card-body">
+      <h5 class="mytitle card-title">Online form</h5>
+      <p class="card-text">Basic and static online form to request English lessons.</p>
+      <a href="./form.html" class="btn btn-primary">Check it out</a>
+    </div>
+  </div>
+  </div>
+    <div class="col-sm-4 p-4">
+      <div class="card">
+        <img src="./img/index/captura-yoga2.png" class="card-img-top d-none d-md-block" alt="...">
+      <div class="card-body">
+      <h5 class="mytitle card-title">Yoga site</h5>
+      <p class="card-text">Basic HTML with navbar on the side, not responsive.</p>
+      <a href="./yoga.html" class="btn btn-primary">Check it out</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- <div class="container" id="projects">
+  <h1 class="text-white p-5 text-center">Projects</h1>
+  <div class="card-deck">
+   <div class="card h-100" style="width: 18rem;">
+    <img src="../Captions/tributecaptura.png" class="card-img-top d-none d-md-block" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tribute Page</h5>
+      <p class="card-text">Basic Tribute Site to the famous Mexican painter Frida Khalo.</p>
+      <a href="../Tributepage.html" class="btn btn-primary" target="_blank">Check it out</a>
+    </div>
+   </div>
+   <div class="card h-100" style="width: 18rem;">
+    <img src="../Captions/online form.png" class="card-img-top d-none d-md-block" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Online form</h5>
+      <p class="card-text">Basic simulation of an online form.</p>
+      <a href="../proyecto2/Applynow.html" class="btn btn-primary" target="_blank">Check it out</a>
+    </div>
+   </div>
+   <div class="card h-100" style="width: 18rem;">
+    <img src="../Captions/yoga.png" class="card-img-top d-none d-md-block" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Yoga site</h5>
+      <p class="card-text">Informative site about yoga.</p>
+      <a href="../Yoga.html" class="btn btn-primary" target="_blank">Check it out</a>
+    </div>
+   </div>
+  </div>
+</div> -->
+
+<!-- CONTACT -->
+
+<!-- <div class="container" id="contact">
+  <h1 class="text-white p-5 text-center">Get in touch with me!</h1>
+  <div class="row p-4 m-4">
+    <div class="col">
+      <a
+        href="https://www.linkedin.com/in/martagilabertgu"
+        target="_blank"
+        class="text-white"
+        ><i class="fab fa-linkedin-in"></i>  LinkedIn</a>
+    </div>
+    <div class="col">
+      <a
+      id="profile-link"
+      href="https://github.com/marta8919"
+      target="_blank"
+      class="text-white"
+      ><i class="fab fa-github"></i>  GitHub</a>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div class="container p-3" id="contact">
+  <h1 class="text-white p-5 text-center">Get in touch with me</h1>
+    <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/martagilabertgu" role="button"><i class="fab fa-linkedin-in"></i>  LinkedIn</a>
+    <a class="btn btn-primary btn-lg" href="https://github.com/marta8919" role="button"><i class="fab fa-github"></i>  GitHub</a>
+</div> -->
+
+
+<!-- Footer -->
+<div class="container-fluid" id="contact">
+<footer class="page-footer font-medium special-color-dark pt-4">
+  <h3 class="text-white p-5 text-center">Get in touch with me</h3>
+  <div class="container">
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/martagilabertgu" >
+          <i class="fab fa-linkedin-in text-white"></i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1" href="https://github.com/marta8919" >
+          <i class="fab fa-github text-white"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+<div class="footer-copyright text-center py-3 text-white">© 2020 Created by Marta Gilabert
+    <p class="text-white">Powered by <u><a href="./img/june.jpg" class="june">June v1.0</a></u></p>
+  </div>
+</footer>
+</div>
+
+
+
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

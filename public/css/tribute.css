@@ -1,0 +1,24 @@
+
+
+/*body settings */
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* FOOTER */
+
+/* footer {
+  font-weight: 150;
+  font-size: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background: rgb(206, 202, 202);
+  width: 100%;
+} */
+
+li {
+  line-height: 35px;
+}
+
