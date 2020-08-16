@@ -1,0 +1,20 @@
+:root {
+    --red: #ae2422;
+    --brown: #BC986A;
+    --lightbrown: #DAAD89;
+    --cream: #FBEEC1;
+    --blue: #659DBD;
+}
+
+
+nav {
+    background-color: var(--red);
+}
+
+/* .dropdown-menu {
+    background-color: var(--red);
+}
+
+nav > a:hover {
+    background-color: var(--brown);
+} */
