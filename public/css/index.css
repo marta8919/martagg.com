@@ -1,42 +1,25 @@
 
   :root {
     --main-white: #FEFEFE;
-    --main-blue: #30415d;
-    --main-orange: #cd6766;
-    --main-bluelight: #d9ebf3;
+    --main-blue: #415164;
+    --main-orange: #eddc6b;
+    --main-bluelight: #9ed0c9;
     --main-grey: #031424;
     }
 
 body {
-    background: var(--main-blue);
+    background: white;
     font-family: 'Comfortaa', cursive;
 }
 
 nav {
-    background: var(--main-orange);
+    background: var(--main-bluelight);
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
     background-color: var(--main-blue);
     color: var(--main-white);
 }
-
-.container > p {
-    color: var(--main-orange);
-}
-
-  
-/*footer {
-    font-weight: 150;
-    font-size: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
-    background: var(--main-orange);
-    width: 100%;
-    height: 6vh;
-    color: var(--main-white);
-  }*/
 
   .june:link {
     text-decoration: none;
@@ -47,7 +30,19 @@ nav {
   }
 
 .mytitle {
-  color: var(--main-orange);
+  color: var(--main-blue);
   font-weight: bold;
 }
 
+
+.myabout {
+  background-color: var(--main-bluelight);
+}
+
+.mysection {
+  background-color: var(--main-bluelight);
+}
+
+.mybtn {
+  background-color: var(--main-blue);
+}
