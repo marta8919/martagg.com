@@ -42,3 +42,7 @@ nav {
 .mysection {
   background-color: var(--main-bluelight);
 }
+
+.mybody {
+  background-color: var(--main-bluelight);
+}
