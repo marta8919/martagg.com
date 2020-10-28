@@ -8,7 +8,6 @@
     }
 
 body {
-    background: white;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -40,8 +39,9 @@ nav {
 
 
 .myabout {
-  background-image: url("/public/img/index/backgroundimage.png");
+  /* background-image: url(..); */
   background-size: cover;
+  background-color: var(--main-bluelight);
 }
 
 .mysection {
