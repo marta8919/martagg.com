@@ -34,9 +34,12 @@ nav {
   font-weight: bold;
 }
 
+.mysubtitle {
+  color: var(--main-blue)
+}
+
 
 .myabout {
-  /* background-color: var(--main-bluelight); */
   background-image: url("/public/img/index/backgroundimage.png");
   background-size: cover;
 }
