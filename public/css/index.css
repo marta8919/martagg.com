@@ -39,8 +39,9 @@ nav {
 
 
 .myabout {
-  /* background-image: url(..); */
+  background-image: url(../background.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: var(--main-bluelight);
 }
 
@@ -51,3 +52,5 @@ nav {
 .mybody {
   background-color: var(--main-bluelight);
 }
+
+
