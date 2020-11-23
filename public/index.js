@@ -7,22 +7,31 @@ let number = 0
 let direction = "right"
 let clicks = 0
 
+function mouseover() {
+    document.getElementById("textRobot").textContent = "Click me!"
+}
+
 robot.addEventListener("click", function moveRobot(){
+    robot.addEventListener("mouseover", mouseover)
     clicks ++
     document.getElementById("textRobot").textContent =  clicks
-    if (direction == "right" && number < 400){
+    if (direction == "right" && number < 400 && clicks < 10){
         number += 100
         robot.style.left = number + 'px'
-    } else if (number == 400) {
+    } else if (number == 400 && clicks < 10) {
         direction = "left"
         number -= 100
         robot.style.left = number + 'px'
-    } else if (direction == "left" && number < 400 && number != 0) {
+    } else if (direction == "left" && number < 400 && number != 0 && clicks < 10) {
         number -= 100
         robot.style.left = number + 'px'
-    } else if (number == 0) {
+    } else if (number == 0 && clicks < 10) {
         direction = "right"
         number += 100
         robot.style.left = number + 'px'
-    }
+    } else if (clicks <= 10){
+        clicks = 0
+        document.getElementById("textRobot").textContent =  "Stop it stupid!"
+    } 
 })
+
