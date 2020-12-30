@@ -53,6 +53,9 @@ nav {
   background-color: var(--main-white);
 }
 
+.mycard {
+  align-items: stretch;
+}
 
 
 /* robot starts here */
